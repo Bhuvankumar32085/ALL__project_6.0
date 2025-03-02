@@ -49,3 +49,10 @@
     top:10%;
     left: 49.5%;
 }
+
+@media (min-width:850px){
+    .clock{
+        width: 500px;
+        height: 500px;
+    }
+}
