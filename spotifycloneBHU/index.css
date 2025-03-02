@@ -1,0 +1,314 @@
+*{  
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 0.5rem;
+}
+
+.sidebar{
+    width:280px ;
+    background-color:#000;
+    border-radius: 1rem;
+}
+/* nav */
+
+.nav{
+    padding: 0.5rem 0.7rem;
+    height: 100px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.nav-option{
+    padding: 0.5rem 0.7rem;
+}
+
+.nav-option i{
+    font-size: 1.5rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+/* library*/
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 0.5rem 0.7rem;
+    margin-top: 0.5rem;
+    height: 79.3vh;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.7rem;
+}
+
+.lib-options{
+    display: flex;
+    align-items: center;
+}
+.lib-options a{
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.icon-options i{
+    margin-left: 1rem;
+}
+
+.lib-options img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* library boxes */
+.box-item{
+    padding: 0.5rem 0.7rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+    margin-top:10px ;
+    height: 10rem;
+}
+
+.box-p{
+    font-size: 0.6rem;
+    opacity: 0.75;
+}
+
+/* main-content nav */
+.main-content{
+    background-color: #121212;
+    margin-left: 0.5rem;
+    overflow: auto;
+    border-radius: 1rem;
+    flex: 1;
+    padding: 1rem;
+}
+
+.nav-main-content{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-main-item{
+    width: 100px;
+}
+
+.nav-main-content img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 10px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn i{
+     color: rgb(5, 0, 0);
+     margin-right: 2px;
+}
+
+.nav-main-item-sec{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* card */
+.card-con{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #23232343;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    height:18rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenlys;
+    margin: 10px;
+}
+
+.hh{
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card img{
+    border-radius: 0.5rem;
+    height: 11rem;
+}
+
+.card-info{
+    padding: 0.3rem 0.3rem;
+    font-size: 0.6rem;
+    opacity: 0.6;
+}
+.card-title{
+    padding: 0.3rem 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/* hr */
+.hr{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+/* music-player */
+.music-player{
+    width: 100vw;
+    height: 72px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.album{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.album img{
+    width: 50px;
+    height: 50px;
+}
+
+.album-text{
+    display: flex;
+    flex-direction: column;
+}
+.p{
+    font-size: 0.9rem;
+    padding: 0.4rem 0rem;
+}
+.p2{
+    font-size: 0.6rem;
+    opacity: 0.6;
+}
+
+.player{
+    width: 50vw;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.player-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-control img{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 10px;
+}
+
+#play{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.progress-bar{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.progress{
+    width: 50%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress::-webkit-slider-runnable-track{
+   background-color: white;
+   border-radius: 100px;
+   height: 0.2rem;
+}
+.progress::-webkit-slider-thumb{
+   appearance: none;
+   height: 1rem;
+   width: 1rem;
+   background-color: #1db760;
+   /* border-radius: 50%; */
+   margin-top: -6px;
+}
+
+.controls{
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.controls input{
+    width: 5rem;
+}
+
+/* utility */
+.aaa{
+    padding: 0.3rem 0.3rem;
+    font-size: 0.6rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    height: fit-content;
+    width: fit-content;
+    color: #000;
+    border: none;
+}
+
+.aaa:hover{
+   border: 2px solid white;
+}
+.aa{
+    opacity: 0.6;
+}
+.aa:hover{
+    opacity: 1;
+}
+
+.card:hover{
+    background-color: #232323;
+}

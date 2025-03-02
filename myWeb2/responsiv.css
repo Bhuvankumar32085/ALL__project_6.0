@@ -1,0 +1,52 @@
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 10px;
+}
+
+.line{
+    border-radius: 15px;
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width:725px){
+    .nav-list{
+       flex-direction: column;
+    }
+    .navbar{
+       height: 308px;
+       flex-direction: column;
+    }
+    .rightnav{
+       width: 80%;
+       text-align: center;
+    }
+    .rightnav button{
+       margin-top: 10px;
+    }
+    .burger{
+       display: block;
+    }
+    .h-nav-resp{
+        height: 50px;
+    }
+    .v-class-resp{
+        display: none;
+    }
+}
+
+@media (max-width:410px){
+    .secondhalf{
+        display: none;
+    }
+}
+@media (max-width:360px){
+    .main-section1{
+        width: 100%;
+    }
+}

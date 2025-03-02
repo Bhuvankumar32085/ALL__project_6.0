@@ -1,0 +1,140 @@
+*{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.style-btn{
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.border-style:hover{
+    border: 2px solid #ED254E;
+}
+
+.hovers:hover{
+    background-color: #ED254E;
+    color: white;
+}
+
+button[type="submit"]{
+    background-color: #ED254E;
+    color: white;
+}
+
+@media (min-width:1340px){
+    .content{
+        width: 60vw;
+    }
+    .home-artical{
+        width: 60vw;
+    }
+    hr{
+        width: 60vw;
+    }
+    .navigation{
+        width: 70vw;
+    }
+}
+
+@media (max-width:520px){
+    .content{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:443px){
+    .img img{
+        width: 150px;
+        height: 150px;
+    }
+    .content-right img{
+        width: 150px;
+        height: 150px;
+    }
+    .text a{
+        font-size: 0.7rem;
+    }
+    .text div{
+        font-size: 0.6rem;
+    }
+    .text span{
+        font-size: 0.6rem;
+    }
+    .footer{
+        height: 70px;
+    }
+    .footer p{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:345px){
+    .img img{
+        width: 120px;
+        height: 120px;
+    }
+    .content-right img{
+        width: 120px;
+        height: 120px;
+    }
+}
+@media (max-width:307px){
+    .img img{
+        width: 90px;
+        height: 90px;
+    }
+    .content-right img{
+        width: 90px;
+        height: 90px;
+    }
+}
+@media (max-width:500px){
+    .home-artical{
+        padding: 30px 0px;
+    }
+}
+
+@media (max-width:620px){
+    .item img{
+        width: 150px;
+        height: 150px;
+    }
+    .text h1{
+        font-size: 1.2rem;
+    }
+    .text p{
+        font-size: 0.8rem;
+    }
+    .item p{
+        font-size: 0.8rem;
+    }
+    .item{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:685px){
+  .navigation{
+    width: 100vw;
+    flex-direction: column;
+  }
+}
+@media (max-width:350px){
+  .nav-left{
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-item{
+    margin-top: 20px;
+  }
+  .nav-right{
+    margin-top: 10px;
+  }
+}

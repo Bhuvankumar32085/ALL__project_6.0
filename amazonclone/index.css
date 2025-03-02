@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* box-1 */
+.nav-aa{
+    display: flex;
+    justify-content: space-between;
+}
+.navlogo{
+    height: 50px;
+    background-color: #2162A1;
+    padding: 5px;
+}
+
+.logo{
+    height: 100%;
+    width: 142px;
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box-2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 17px;
+}
+.add-sec{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-address{
+    height: 50px;
+    padding: 5px;
+}
+
+/* box-3 */
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 820px;
+    border-radius: 4px;
+}
+.search-select{
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.div-serch-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color:#febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+  border: 2px solid #febd68;
+}
+
+/* box-4 */
+.nav-cc{
+    display: flex;
+}
+
+.nav-location{
+    display: flex;
+    height: 50px;
+    width:75px ;
+    align-items: center;
+    padding: 5px;
+}
+
+.location-select{
+    height: 15px;
+    border: none;
+    text-align: center;
+    background-color: #0f1111;
+    color: #cccccc;
+}
+
+/* box-5 */
+.nav-singin{
+    height: 50px;
+    width: 131px;
+    padding: 7px;
+}
+
+.singin-first{
+    font-size: 0.7rem;
+}
+.singin-second{
+    font-size: 0.85rem;
+    font-weight:700;
+}
+/* box-6 */
+.bb{
+    width: 80px;
+}
+/* box-7 */
+.nav-cart{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.cart-icon{
+    font-size: 2rem;
+    margin-right: 5px;
+}
+.cart-text{
+    font-weight: 700;
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color:#222f3d ;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel-ops{
+    width: 80%;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.panel-ops p{
+    margin: 10px;
+}
+.panel-ops p:hover{
+    border: 1.5px solid white;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.zzz{
+    padding: 5px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+/* hero-section */
+
+.hero-section{
+    background-image: url("61zAjw4bqPL._SX3000_.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-mass{
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    font-size: 0.9rem;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.hero-mass a{
+    color: #008175;
+}
+
+/* shop-section-1*/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: none;
+    height: 400px;
+    /* width: 23%; */
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box1-img{
+    height: 80%;
+    background-image: url("Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg");
+    background-size: cover;
+}
+.box2-img{
+    height: 80%;
+    background-image: url("Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg");
+    background-size: cover;
+}
+.box3-img{
+    height: 80%;
+    background-image: url("CE24_SUM_GW_DQC_SE_GamingWeek_Nintendo_v2_1x._SY116_CB558844445_.jpg");
+    background-size: cover;
+}
+.box4-img{
+    height: 80%;
+    background-image: url("Gaming_zone_1x._SY304_CB540253513_.jpg");
+    background-size: cover;
+}
+
+.box>p{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* shop-section-2 */
+.shop-section2{ 
+    margin-top: 25px; 
+    display: flex; 
+    justify-content: space-evenly; 
+    background-color: #E3E6E6; 
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+} 
+
+ /* footer */
+ /* panel-1 */
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+/* foot-panel-2 */
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-panel2 ul{
+    margin-top: 20px;
+}
+
+.foot-panel2 ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddd;
+} 
+
+/* foot-panal-3 */
+
+.foot-panel3{
+    height: 120px;
+    background-color: #222f3d;
+    border-top: 2px  solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2{
+    height: 50px;
+    width: 142px;
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+}
+/* foot-panel-4 */
+.foot-panel4{
+    height: 80px;
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+
+main{
+    background-color: #E3E6E6;
+    position: relative; 
+    bottom:270px;
+}
+
+footer{
+    position: relative; 
+    bottom:270px;
+}

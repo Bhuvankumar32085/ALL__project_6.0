@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    background-color: #000000;
+    padding: 0.5rem;
+}
+
+.left{
+    width: 25vw;
+    flex-direction: column;
+    margin-right: 0.5rem;
+}
+
+/* HOME */
+.home{
+    padding: 0.5rem 0rem;
+    background-color: #2020205d;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.home ul li{
+    list-style: none;
+    padding: 0.25rem 1rem;
+    color: white;
+}
+
+.home ul li a{
+   color: white;
+   font-size: 0.8rem;
+   text-decoration: none;
+   margin-left: 0.5rem;
+   opacity: 0.6;
+}
+
+.home ul li p{
+    padding: 1px 10px;
+    margin: 0.5rem 0;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(10, 4, 4);
+    border-top-right-radius:50% ;
+    border-bottom-left-radius:50% ;
+    background-color: rgba(127, 246, 255, 0.929);
+}
+
+/* library */
+.library{
+    height: 100%;
+    color: white;
+    background-color: #2020205d;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0rem;
+    flex-direction: column;
+}
+
+.library-item{
+    padding: 0.25rem 1rem;
+    opacity: 0.6;
+}
+
+.library-item img{
+    width: 18px;
+    height: 18px;
+}
+
+.library-item p{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+/* right */
+.right{
+    background-color: #2020205d;
+    width: 75vw;
+    border-radius: 0.5rem;
+    height: 98vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    position: relative;
+}
+
+/* right --> header */
+.header{
+    background-color:#202020b1;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    border-top-left-radius:0.5rem ;
+    border-top-right-radius:0.5rem ;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header .icon{
+    color: white;
+}
+
+.header .icon i{
+    margin-left: 10px;
+    opacity: 0.6;
+}
+
+.right .btn .Sign{
+    background-color:#202020b1;
+    border: none;
+    color: white;
+    opacity: 0.6;
+}
+
+/* right --> card-con */
+.card-con{
+    padding: 0.5rem 1rem;
+}
+
+.card-con .card-p{
+    color: white;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+/* card */
+.card{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* card-play */
+.card-play{
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top: 125px;
+    visibility: hidden;
+}
+
+/* card-item */
+.card-item{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: fit-content;
+    padding: 10px;
+    flex-direction: column;
+    background-color:  #2020205d;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.card-item:hover{
+    .card-play{
+        visibility: visible;
+    }
+}
+
+.card .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 0.5rem;
+    z-index: -1;
+}
+
+.card .text .p1{
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+}
+
+.card .text .p2{
+    color: white;
+    font-size: 0.6rem;
+    opacity: 0.6;
+}
+
+/* footer-playbar */
+.footer-playbar{
+    height: 50px;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(238, 244, 242, 0.742);
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.all{
+    width: 99%;
+    justify-content: space-between;
+}
+
+.songinfo{
+    width: 43%;
+    font-size: 0.6rem;
+    padding: 0 10px;
+}
+
+.song-btn{
+    width: fit-content;
+}
+
+.songtime{
+    width: 43%;
+    font-size: 0.6rem;
+    padding: 0 10px;
+    justify-content: end;
+}
+
+.leftplaybtn{
+   font-size: 1.2rem;
+}
+
+.playbtn{
+    font-size: 1.8rem;
+    padding: 0px 10px;
+}
+
+.rightplaybtn{
+    font-size: 1.2rem;
+}
+
+input[type="range"]{
+    cursor: pointer;
+    width: 250px;
+    height: 3px;
+    background-color: aqua;
+}
+
+.song-list ul{
+    height: 204px;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.song-list ul li i{
+    font-size: 0.9rem;
+    padding: 0 10px;
+}
+
+.song-list ul li{
+    width: 200px;
+    border: 1px solid white;
+    padding: 10px 0;
+    justify-content: space-between;
+    border-radius: 8px;
+    list-style-type:decimal;
+    font-size: 0.5rem;
+    margin: 5px 0;
+}
+
+

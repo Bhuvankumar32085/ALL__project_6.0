@@ -1,0 +1,15 @@
+.home-artical{
+    height: 40vh;
+    justify-content: space-between;
+    margin-bottom: 30px;
+} 
+
+.home-artical button{
+    width: 100px;
+}
+
+.footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+}
